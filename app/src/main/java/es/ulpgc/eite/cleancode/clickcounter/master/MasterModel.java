@@ -44,31 +44,34 @@ public class MasterModel implements MasterContract.Model {
 
   @Override
   public void onIncrementCounter(CounterData counter) {
-    counters.get(counters.indexOf(counter)).value++;
+
+    // TODO: include code if necessary
   }
 
   @Override
   public void onIncrementNumOfClicks() {
-    clicks++;
+
+    // TODO: include code if necessary
   }
 
   @Override
   public void onRestartScreen(List<CounterData> counters, Integer clicks) {
     // Log.e(TAG, "onRestartScreen()");
-    this.counters =counters;
-    this.clicks = clicks;
+
+    // TODO: include code if necessary
   }
 
   @Override
   public void onAddCounter(CounterData counter) {
-    counters.add(counter);
+
+    // TODO: include code if necessary
   }
 
   @Override
   public void onDataFromNextScreen(CounterData counter, Integer clicks) {
     // Log.e(TAG, "onDataFromNextScreen()");
-    this.clicks=clicks;
-    counters.set(counters.indexOf(counter), counter);
+
+    // TODO: include code if necessary
   }
 
 }

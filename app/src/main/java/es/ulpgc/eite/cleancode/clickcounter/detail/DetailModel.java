@@ -24,25 +24,27 @@ public class DetailModel implements DetailContract.Model {
 
   @Override
   public void onIncrementNumOfClicks() {
-    clicks++;
+
+    // TODO: include code if necessary
   }
 
   @Override
   public void onRestartScreen(CounterData counter, Integer clicks) {
     // Log.e(TAG, "onRestartScreen()");
-    this.counter =counter;
-    this.clicks=clicks;
+
+    // TODO: include code if necessary
   }
 
   @Override
   public void onDataFromPreviousScreen(CounterData counter, Integer clicks) {
     // Log.e(TAG, "onDataFromPreviousScreen()");
-    this.counter =counter;
-    this.clicks=clicks;
+
+    // TODO: include code if necessary
   }
 
   @Override
   public void onIncrementCounter() {
-    counter.value++;
+
+    // TODO: include code if necessary
   }
 }
